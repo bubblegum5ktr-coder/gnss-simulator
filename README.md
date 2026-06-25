@@ -127,6 +127,8 @@ This simulator pairs with [nmea-validator](https://github.com/your-account/nmea-
 
 The `--validate` flag in `receiver.py` calls nmea-validator automatically. Requires nmea-validator to be installed at `D:/workspace/nmea-validator/` (update `sys.path` in `receiver.py` if your path differs).
 
+`receiver.py` 的 `--validate` 参数会自动调用 nmea-validator 进行校验。需要 nmea-validator 安装在 `D:/workspace/nmea-validator/`（如果路径不同，修改 `receiver.py` 中的 `sys.path` 即可）。
+
 ## Run Tests · 运行测试
 
 ```bash
@@ -136,7 +138,13 @@ python -m pytest test_simulator.py -v
 ## Requirements · 依赖
 
 - Python 3.10+
-- pytest (for running tests)
-- [nmea-validator](https://github.com/your-account/nmea-validator) (optional, for `--validate`)
+- pytest（用于运行测试）
+- [nmea-validator](https://github.com/your-account/nmea-validator)（可选，用于 `--validate` 校验）
 
-No third-party packages required for core functionality.
+核心功能无需第三方包。No third-party packages required for core functionality.
+
+---
+
+## Contributors · 贡献者
+
+- [bubblegum5ktr-coder](https://github.com/bubblegum5ktr-coder)
