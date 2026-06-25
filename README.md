@@ -47,7 +47,7 @@ gnss-simulator/
 ├── nmea_builder.py      # NMEA-0183 sentence builder (GGA/RMC/GSA/GSV/VTG)
 ├── receiver.py          # TCP client: capture, save, validate
 ├── demo.py              # Guided demo: 4 scenarios step by step
-├── test_simulator.py    # pytest suite (15 tests)
+├── test_simulator.py    # pytest suite (22 tests · 条测试)
 ├── reports/             # Test report output directory
 ├── .gitignore
 └── README.md
